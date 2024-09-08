@@ -6,6 +6,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Stack;
 
+/**
+* Main program for app
+*/
+
 public class DIYFractal extends JFrame {
     final int PANEL_WIDTH = 700, HEIGHT = 750;
     DrawingPanel panel = new DrawingPanel(0, PANEL_WIDTH, HEIGHT);
